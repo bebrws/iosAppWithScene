@@ -7,28 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B12076C3244E423A00305B6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B12076C2244E423A00305B6F /* AppDelegate.m */; };
-		B12076C6244E423A00305B6F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B12076C5244E423A00305B6F /* SceneDelegate.m */; };
-		B12076C9244E423A00305B6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12076C8244E423A00305B6F /* ViewController.m */; };
-		B12076CC244E423A00305B6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12076CA244E423A00305B6F /* Main.storyboard */; };
 		B12076CE244E423B00305B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12076CD244E423B00305B6F /* Assets.xcassets */; };
-		B12076D1244E423B00305B6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12076CF244E423B00305B6F /* LaunchScreen.storyboard */; };
 		B12076D4244E423B00305B6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B12076D3244E423B00305B6F /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B12076BE244E423A00305B6F /* iosAppWithScene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosAppWithScene.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B12076C1244E423A00305B6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B12076C2244E423A00305B6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B12076C4244E423A00305B6F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		B12076C5244E423A00305B6F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		B12076C7244E423A00305B6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B12076C8244E423A00305B6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B12076CB244E423A00305B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B12076CD244E423B00305B6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B12076D0244E423B00305B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B12076D2244E423B00305B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B12076D3244E423B00305B6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B12076DA244E436E00305B6F /* NSTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTask.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,16 +49,9 @@
 		B12076C0244E423A00305B6F /* iosAppWithScene */ = {
 			isa = PBXGroup;
 			children = (
-				B12076C1244E423A00305B6F /* AppDelegate.h */,
-				B12076C2244E423A00305B6F /* AppDelegate.m */,
-				B12076C4244E423A00305B6F /* SceneDelegate.h */,
-				B12076C5244E423A00305B6F /* SceneDelegate.m */,
-				B12076C7244E423A00305B6F /* ViewController.h */,
-				B12076C8244E423A00305B6F /* ViewController.m */,
-				B12076CA244E423A00305B6F /* Main.storyboard */,
 				B12076CD244E423B00305B6F /* Assets.xcassets */,
-				B12076CF244E423B00305B6F /* LaunchScreen.storyboard */,
 				B12076D2244E423B00305B6F /* Info.plist */,
+				B12076DA244E436E00305B6F /* NSTask.h */,
 				B12076D3244E423B00305B6F /* main.m */,
 			);
 			path = iosAppWithScene;
@@ -133,9 +114,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B12076D1244E423B00305B6F /* LaunchScreen.storyboard in Resources */,
 				B12076CE244E423B00305B6F /* Assets.xcassets in Resources */,
-				B12076CC244E423A00305B6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,33 +125,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B12076C9244E423A00305B6F /* ViewController.m in Sources */,
-				B12076C3244E423A00305B6F /* AppDelegate.m in Sources */,
 				B12076D4244E423B00305B6F /* main.m in Sources */,
-				B12076C6244E423A00305B6F /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		B12076CA244E423A00305B6F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B12076CB244E423A00305B6F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B12076CF244E423B00305B6F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B12076D0244E423B00305B6F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B12076D5244E423B00305B6F /* Debug */ = {
@@ -288,34 +245,41 @@
 		B12076D8244E423B00305B6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J224A9FKGZ;
 				INFOPLIST_FILE = iosAppWithScene/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbarrows.iosAppWithScene;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 arm64e";
 			};
 			name = Debug;
 		};
 		B12076D9244E423B00305B6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J224A9FKGZ;
 				INFOPLIST_FILE = iosAppWithScene/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbarrows.iosAppWithScene;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 arm64e";
 			};
 			name = Release;
 		};
